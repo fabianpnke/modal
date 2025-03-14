@@ -8,7 +8,7 @@ jobs:
     strategy:
       fail-fast: true
       matrix:
-        stack: [react, vue]
+        stack: [vue]
 
     steps:
       - name: Checkout
